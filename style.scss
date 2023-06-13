@@ -173,11 +173,16 @@ span::after{
     #page-2 .card{
         flex-direction: column-reverse;
     }
+    span{
+        display: block;
+        text-align: right;
+    }
     span::before{
         left: -5%;
     }
     span::after{
-        left: 65%;
+        top: 4%;
+        left: 74%;
     }
     #main-nav{
         color: transparent;
